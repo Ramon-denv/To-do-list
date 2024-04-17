@@ -15,6 +15,7 @@ public class FilterTaskAuth implements Filter{
             throws IOException, ServletException {
 
                 chain.doFilter(request, response);
+                System.out.println("ok");
        
     }
     
